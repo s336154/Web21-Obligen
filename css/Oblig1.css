@@ -241,3 +241,23 @@ font-weight: bold;
 
 
 }
+
+
+
+p::selection {
+
+background-color: lightgray;
+color: black;
+
+}
+
+li.hob::selection {
+
+display: block;
+font-family: Papyrus, Copperplate, Fantasy;
+font-weight: bold;
+font-size: 22px;
+
+background-color: lightgray;
+color: black;
+}
